@@ -5,5 +5,6 @@ ls -l - displays directory contents in a long format
 ls -lA - displays current directory contents, including hidden files (starting with .)
 ls -lna - displays directory contents in long format, with user group IDs displayed numerically and hidden files.
 mkdir - makes a new directory
+mv betty /tmp/my_first_directory/ - moves the betty file to /tmp/my_first_directory/
 
 
