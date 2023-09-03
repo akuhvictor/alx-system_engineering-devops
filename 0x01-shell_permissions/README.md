@@ -1,0 +1,1 @@
+su betty - creates the file betty
