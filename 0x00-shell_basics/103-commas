@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name '[!.]*' -print0 | tr '\0' ',' | sed 's/,$/\n/' | LC_COLLATE=C sort
+ls -af | grep -v '^.$' | grep -v '^..$' | rev | sort | rev | paste -sd ',' -| echo
