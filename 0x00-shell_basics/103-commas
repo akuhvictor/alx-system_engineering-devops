@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -af | grep -v '^.$' | grep -v '^..$' | rev | sort | rev | paste -sd ',' -| echo
+ls -af | grep -v '^.$' | grep -v '^..$' | paste -sd ',' - 
